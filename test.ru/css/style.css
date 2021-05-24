@@ -1,0 +1,110 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-size: 18px;
+}
+
+page {
+    width: 100vw;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+div.block_result {
+    text-align: center;
+}
+
+div.block_result_total {
+    padding: 15px 5px 5px 5px;
+}
+
+div.block_result_text {
+    padding: 15px 5px 5px 5px;
+    color: rgb(117, 174, 195);
+}
+
+span.block_result_span {
+    color: rgb(117, 174, 195);
+}
+
+span.block_result_sup {
+    color: rgb(117, 174, 195);
+    display: none;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+span.form_license_block_span {
+    color: rgb(150, 150, 150);
+    font-size: 0.7em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+}
+
+form {
+    background-color: rgb(248, 248, 248);
+    border: rgb(235, 235, 235) solid 5px;
+    min-width: 300px;
+    padding: 10px;
+}
+
+.form_license_block {
+    padding: 15px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.form_license_block:hover {
+    background-color: rgb(235, 244, 247);
+}
+
+input#num_of_licenses {
+    min-width: 30px;
+    max-width: 50px;
+}
+
+input.btn_submit {
+    background-color: rgb(51, 168, 69);
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border: none;
+}
+
+
+
+@font-face {
+    font-family: BebasRegular;
+    src: url("../fonts/BebasRegular.ttf");
+}
+
+.lable_font {
+    font-family: BebasRegular;
+    font-weight: bolder;
+    color: rgb(150, 150, 150);
+}
